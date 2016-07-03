@@ -1,5 +1,5 @@
 module.exports = {
-  title: "pimatic-ping device config schemas"
+  title: "pimatic-bh1750 device config schemas"
   BH1750Sensor: {
     title: "BH1750Sensor config options"
     type: "object"
