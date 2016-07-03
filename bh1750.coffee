@@ -41,7 +41,7 @@ module.exports = (env) ->
       @_lightintensity = lastState?.lightintensity?.value
       BH1750 = require 'bh1750'
       @sensor = new BH1750({
-        address: @config.address,
+        address: parseInt @config.address,
         device: @config.device,
         command: 0x10,
         length: 2
