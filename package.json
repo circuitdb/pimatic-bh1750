@@ -1,6 +1,7 @@
 { "name": "pimatic-bh1750",
   "description": "Support for the BH1750 i2c light sensor.",
   "author": "Jos Hendriks <media@circuitdb.com> (http://circuitdb.com)",
+  "license": "Apache-2.0",
   "main": "bh1750",
   "files": [
     "bh1750.coffee",
