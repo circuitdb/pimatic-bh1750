@@ -1,7 +1,7 @@
 # #bh1750 configuration options
 
 module.exports = {
-  title: "my plugin config options"
+  title: "bh1750 plugin config options"
   type: "object"
   properties: {} #no properties
 }
